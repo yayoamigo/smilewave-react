@@ -1,13 +1,15 @@
 .topbarContainer {
     height: 50px;
     width: 100%;
-    background-color:#f5f851;
+    background-color: #53e255;
     display: flex;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 999;
   }
+
+
   
   .topbarLeft {
     flex: 3;
@@ -17,7 +19,7 @@
     font-size: 24px;
     margin-left: 20px;
     font-weight: bold;
-    color: #34daf8;
+    color: #6a0760;
     cursor: pointer;
   }
   
@@ -29,6 +31,7 @@
     width: 100%;
     height: 30px;
     background-color: white;
+    border: 2px solid #6a0760 ;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -53,12 +56,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #433395;
+    color: #6a0760;
+    font-weight: bold;
   }
   
   .topbarLink {
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
   }
   
