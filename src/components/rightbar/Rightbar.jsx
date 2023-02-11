@@ -9,10 +9,10 @@ export default function Rightbar({ profile }) {
         <div className="birthdayContainer">
           <img className="birthdayImg" src="assets/gift.png" alt="" />
           <span className="birthdayText">
-            <b>Eros Smanis</b> and <b>3 other friends</b> have a birhday today.
+            <b>Eros smanis</b> and <b>3 other friends</b> have a birhday today.
           </span>
         </div>
-        <img className="rightbarAd" src="assets/kfc.jpg" alt="" />
+        <img className="rightbarAd" src="assets/ad.png" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
           {Users.map((u) => (
@@ -25,16 +25,16 @@ export default function Rightbar({ profile }) {
 
   const ProfileRightbar = () => {
     return (
-      <>
+      <div className="profileDiv">
         <h4 className="rightbarTitle">User information</h4>
         <div className="rightbarInfo">
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">City:</span>
-            <span className="rightbarInfoValue">New York</span>
+            <span className="rightbarInfoValue">Manta</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">From:</span>
-            <span className="rightbarInfoValue">Madrid</span>
+            <span className="rightbarInfoValue">Ecuador</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Relationship:</span>
@@ -45,11 +45,19 @@ export default function Rightbar({ profile }) {
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
             <img
-              src="assets/Guaca.jpg"
+              src="assets/Lizzie.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Lizzie loca</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/Eras.jpg"
+              alt=""
+              className="rightbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">Alvarenga</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -57,15 +65,15 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Alvarenga</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/Lizzie.jpg"
+              src="assets/Floria.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Alvarenga</span>
           </div>
           <div className="rightbarFollowing">
             <img
@@ -73,26 +81,18 @@ export default function Rightbar({ profile }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Alvarenga</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/Lizzie.jpg"
+              src="assets/Sofia.jpg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
-          </div>
-          <div className="rightbarFollowing">
-            <img
-              src="assets/Lizzie.jpg"
-              alt=""
-              className="rightbarFollowingImg"
-            />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Alvarenga</span>
           </div>
         </div>
-      </>
+      </div>
     );
   };
   return (
